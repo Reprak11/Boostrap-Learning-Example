@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light">
+        <nav class="navbar navbar-light border-bottom">
                 <a class="navbar-brand" href="#">Company name</a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
@@ -37,7 +37,7 @@
             with this Boostrap example. It's built with default Bootstrap components
             and utilities with little customization</p>
         </section>
-        <div class="container">
+        <div class="container mb-5">
             <section id="three-cards" class="row">
                 <div class="col-sm-12 col-md-4">
                     <div class="card text-center">
@@ -80,28 +80,39 @@
                 </div>
             </section>
         </div>
-        <footer>
-            <ul>
-                <li><img src="/images/logo2.PNG" alt="#my-logo"></li>
-                <li>2020</li>
-            </ul>
-            <div>
-                <h4>Features</h4>
-                <li>Cool stuff</li>
-                <li>Random feature</li>
-                <li>Team feature</li>
-            </div>
-            <div>
-                <h4>Resource</h4>
-                <li>Reource</li>
-                <li>Resource name</li>
-                <li>Another resource</li>
-            </div>
-            <div>
-                <h4>About</h4>
-                <li>Team</li>
-                <li>Location</li>
-                <li>Privacy</li>
+        <footer class="container pt-4 border-top">
+            <div class="row d-flex justify-content-around">
+                <div class="col-xs-3">
+                    <ul class="list-unstyled">
+                        <li><img src="/images/logo2.PNG" alt="#my-logo"></li>
+                        <li>2020</li>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled">
+                        <li>Cool stuff</li>
+                        <li>Random feature</li>
+                        <li>Team feature</li>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <h5>Resource</h5>
+                    <ul class="list-unstyled">
+                        <li>Reource</li>
+                        <li>Resource name</li>
+                        <li>Another resource</li>
+                    </ul>
+                    
+                </div>
+                <div class="col-xs-3">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li>Team</li>
+                        <li>Location</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </main>
